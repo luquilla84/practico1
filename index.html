@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <style>
+        body {
+            background-image: url("otra imagen.png");
+            background-repeat: no-repeat;
+        }
+    </style>
+    <div id="calculator">
+        <h2>Calculadora Básica</h2>
+        <input type="text" id="operand1" placeholder="Ingrese el primer Número">
+        <select id="operator">
+            <option value="+">Sumar</option>
+            <option value="-">Restar</option>
+            <option value="*">Multiplicar</option>
+            <option value="/">Dividir</option>
+        </select>
+        <input type="text" id="operand2" placeholder="Ingrese el segundo Número">
+        <button id="calculate">C a l c u l a r</button>
+        <button id="clear">L i m p i a r</button>
+        <p id="result"></p>
+    </div>
+    <p class="bottom-right-paragraph">Diseño LSB</p>
+    <script src="main.js"></script>
+</body>
+
+</html>

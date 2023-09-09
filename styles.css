@@ -1,0 +1,85 @@
+/*Agregar estilo al cuerpo*/
+
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-image: url('otra\ imagen.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}
+
+/*Agregar estilo al formato de la calculadora*/
+
+#calculator {
+    width: 90%;
+    max-width: 400px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/*Agregar estilo a los elemento seleccionados*/
+
+input[type="text"],
+select,
+button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+/*Agregar estilo a los botones*/
+
+button {
+    background-color: #3498db;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+/*Agregar estilo cuando pasa por encima de los botones*/
+
+button:hover {
+    background-color: #3091d1;
+}
+
+/* Agregar estilos para el párrafo */
+
+.bottom-right-paragraph {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    background-color: #f0f0f0;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Agregar esto al ID "result" */
+
+#result {
+    font-size: 18px;
+    color: #dc3545;
+    margin-top: 10px;
+    border-top: 1px solid #ccc;
+    padding-top: 10px;
+    background-color: #fff;
+}
+
+/*Agregar estilo al h2*/
+
+h2 {
+    font-size: 28px;
+    color: #050505;
+    text-align: center;
+    margin-top: 20px;
+}
